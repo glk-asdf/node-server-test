@@ -1,0 +1,15 @@
+.el-dialog__wrapper {
+  &.app-dialog-big {
+    .el-dialog {
+      transform: translate(0px, -50%);
+      top: 50%;
+      margin-top: 0 !important;
+      //  54 .. 62
+      .el-dialog__body {
+        max-height: calc(100vh - 136px);
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+    }
+  }
+}

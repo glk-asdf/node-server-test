@@ -1,0 +1,79 @@
+/* 高度100% */
+html,body{
+  height:100%;
+  width: 100%;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+body{
+  float: left;
+}
+
+.full-all{
+  width: 100%;
+  height: 100%;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+/* rem使用基础 */
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1700px) {
+  html {
+    font-size: 89.47368421px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 84.21052632px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 78.94736842px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 73.68421053px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 68.42105263px;
+  }
+}
+/* 修改滚动条样式，仅适用于谷歌和与谷歌使用同内核 webkit 的浏览器 */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+}
+*::-webkit-scrollbar-button {
+  display: none;
+}
+*::-webkit-scrollbar-thumb {
+  border: 0;
+  border-radius: 6px;
+  background-color: #ebebeb;
+}

@@ -1,0 +1,52 @@
+.app-table{
+  .el-pagination{
+    padding-top: 20px;
+  }
+  &.app-table-pagination-border .el-pagination{
+    .btn-prev,
+    .btn-next,
+    .el-pager li {
+      margin: 0 5px;
+      //background-color: $--color-info-lighter;
+      border: 1px solid $--color-info-lighter;
+      color: $--color-text-regular;
+      min-width: 30px;
+      border-radius: 2px;
+      line-height: $--pagination-button-height - 2;
+
+      &.disabled {
+        color: $--color-text-placeholder;
+      }
+    }
+
+    .btn-prev, .btn-next {
+      padding: 0;
+
+      &:disabled {
+        color: $--color-text-placeholder;
+      }
+    }
+
+    .el-pager li:not(.disabled) {
+      &:hover {
+        color: $--pagination-hover-color;
+      }
+
+      &.active {
+        //background-color: $--color-primary;
+        border-color: $--color-primary;;
+        //color: $--color-white;
+        color: $--color-primary;
+      }
+    }
+
+    &.el-pagination--small {
+      .btn-prev,
+      .btn-next,
+      .el-pager li {
+        margin: 0 3px;
+        min-width: 22px;
+      }
+    }
+  }
+}

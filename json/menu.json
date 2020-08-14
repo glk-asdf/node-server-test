@@ -1,0 +1,141 @@
+{
+  "code": 0,
+  "main": "ecms",
+  "redirect": {
+    "main": 1,
+    "base": 13,
+    "ecms": 15
+  },
+  "arr": [
+    {
+      "id": 1,
+      "pid": 0,
+      "sort": 100,
+      "module": "main",
+      "url": "Main",
+      "name": "Main",
+      "icon": "icon-logo",
+      "redirect": 2
+    },
+    {
+      "id": 2,
+      "pid": 1,
+      "sort":  100,
+      "module": "main",
+      "url": "A",
+      "name": "A",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 3,
+      "pid": 1,
+      "sort":  100,
+      "module": "main",
+      "url": "B",
+      "name": "B",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 4,
+      "pid": 1,
+      "sort":  100,
+      "module": "main",
+      "url": "Plugin",
+      "name": "插件示例",
+      "icon": "icon-logo",
+      "redirect": 5
+    },
+    {
+      "id": 5,
+      "pid": 4,
+      "sort":  100,
+      "module": "main",
+      "url": "Echarts",
+      "name": "echarts折线图",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 6,
+      "pid": 4,
+      "sort":  100,
+      "module": "main",
+      "url": "Highcharts",
+      "name": "highcharts折线图",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 7,
+      "pid": 4,
+      "sort":  100,
+      "module": "main",
+      "url": "Leaflet",
+      "name": "leaflet",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 8,
+      "pid": 4,
+      "sort":  100,
+      "module": "main",
+      "url": "Ueditor",
+      "name": "Ueditor 富文本编辑器",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 9,
+      "pid": 4,
+      "sort":  100,
+      "module": "main",
+      "url": "Fragment",
+      "name": "Fragment 碎片",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 10,
+      "pid": 4,
+      "sort":  100,
+      "module": "main",
+      "url": "Table",
+      "name": "Table 插件",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 13,
+      "pid": 0,
+      "sort":  100,
+      "module": "base",
+      "url": "Login",
+      "name": "Login",
+      "icon": "icon-logo",
+      "hidden": true
+    },
+    {
+      "id": 14,
+      "pid": 4,
+      "sort":  100,
+      "module": "main",
+      "url": "EchartsRoseType",
+      "name": "echarts 极限螺旋图",
+      "icon": "icon-logo"
+    },
+    {
+      "id": 15,
+      "pid": 0,
+      "sort":  100,
+      "module": "ecms",
+      "url": "Ecms",
+      "name": "Ecms",
+      "icon": "icon-logo",
+      "redirect": 16
+    },
+    {
+      "id": 16,
+      "pid": 15,
+      "sort":  100,
+      "module": "ecms",
+      "url": "User",
+      "name": "用户",
+      "icon": "icon-logo"
+    }
+  ]
+}
